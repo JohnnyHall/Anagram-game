@@ -1,9 +1,3 @@
-//GRUPO:
-///Daniela Akemi Hayashi             22001201
-///Felipe Yabiko Nogueira            22002265
-///Giovana Salazar Alarcon           22001138
-///João Victor Rokemback Tápparo     22003236
-
 #include <ctype.h>
 #include <locale.h>
 #include <stdio.h>
@@ -17,12 +11,12 @@ void enunciado()
     int i;
     char apresentacao_inicial_linha_1[]="SEJA BEM-VINDO AO JOGO ANAGRAMA!!!";
     char apresentacao_inicial_linha_2[]="Para iniciar pressione qualquer tecla";
-    char apresentacao_inicial_linha_3[]="Jogo anagrama é um jogo criado para um trabalho em grupo da faculdade, consistindo\n\t\t\t em desenvolver e melhorar as habilidades em C";
+    char apresentacao_inicial_linha_3[]="Jogo anagrama Ã© um jogo criado para um trabalho em grupo da faculdade, consistindo\n\t\t\t em desenvolver e melhorar as habilidades em C";
     char apresentacao_inicial_linha_4[]="Grupo:";
     char apresentacao_inicial_linha_5_grupo_1[]="Daniela Akemi Hayashi";
     char apresentacao_inicial_linha_5_grupo_2[]="Felipe Yabiko Nogueira";
     char apresentacao_inicial_linha_5_grupo_3[]="Giovana Salazar Alarcon";
-    char apresentacao_inicial_linha_5_grupo_4[]="João Victor Rokemback Tápparo";
+    char apresentacao_inicial_linha_5_grupo_4[]="JoÃ£o Victor Rokemback TÃ¡pparo";
 
     //Logo do projeto em ascii
     printf("\t\t\t\t\t                     .::.\n");
@@ -303,7 +297,7 @@ int verificacao_bancodepalavras(char *palavra, int escolha)
             return 1; // 1 = Existe a palavra no banco de palavras
         sub = strtok(NULL, " .,");
     }
-    return 0; // 0 = Não existe a palavra no banco de palavras
+    return 0; // 0 = NÃ£o existe a palavra no banco de palavras
 }
 
 int banco_de_acertos(char *palavra,char bancodeacertos[])
@@ -312,7 +306,7 @@ int banco_de_acertos(char *palavra,char bancodeacertos[])
 
     if (sub != NULL) // Palavra encontrada
         return 1;
-    else // Palavra não encontrada
+    else // Palavra nÃ£o encontrada
         return 0;
 }
 
@@ -373,7 +367,7 @@ void parabensfacil()
     mudacor(11);
     system("cls");
     printf("\t\t\t\t\t\t     PARABENS!!!      \n",  setlocale(LC_ALL, "Portuguese") );
-    printf("\t\t\t\t\t\t Você acertou todos       \n",setlocale(LC_ALL, "Portuguese") );
+    printf("\t\t\t\t\t\t VocÃª acertou todos       \n",setlocale(LC_ALL, "Portuguese") );
     printf("\t\t\t\t\t\t os animais listados \n",setlocale(LC_ALL,"Portuguese") );
     sleep(4);
 
@@ -386,7 +380,7 @@ void parabensmedio()
     mudacor(10);
     system("cls");
     printf("\t\t\t\t\t\t     PARABENS!!!      \n",  setlocale(LC_ALL, "Portuguese") );
-    printf("\t\t\t\t\t\t Você acertou todas       \n",setlocale(LC_ALL, "Portuguese") );
+    printf("\t\t\t\t\t\t VocÃª acertou todas       \n",setlocale(LC_ALL, "Portuguese") );
     printf("\t\t\t\t\t\t as flores listadas \n",setlocale(LC_ALL,"Portuguese") );
     sleep(4);
 
@@ -399,8 +393,8 @@ void parabensdificil()
     mudacor(1);
     system("cls");
     printf("\t\t\t\t\t\t     PARABENS!!!      \n",  setlocale(LC_ALL, "Portuguese") );
-    printf("\t\t\t\t\t\t Você acertou todos       \n",setlocale(LC_ALL, "Portuguese") );
-    printf("\t\t\t\t\t\t os verbos em inglês\n",setlocale(LC_ALL,"Portuguese") );
+    printf("\t\t\t\t\t\t VocÃª acertou todos       \n",setlocale(LC_ALL, "Portuguese") );
+    printf("\t\t\t\t\t\t os verbos em inglÃªs\n",setlocale(LC_ALL,"Portuguese") );
     sleep(4);
 
     mudacor(15);

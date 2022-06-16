@@ -20,7 +20,7 @@ Currently available locales are:
 ## 🤝 Contributing
 
 1. [Fork the repository](https://github.com/JohnnyHall/Anagram-game/fork)
-2. Clone your fork: `git clone https://github.com/your-username/evobot.git`
+2. Clone your fork: `git clone https://github.com/JohnnyHall/Anagram-game.git`
 3. Create your feature branch: `git checkout -b my-new-feature`
 4. Stage changes `git add .`
 5. Commit your changes: `cz` OR `npm run commit` do not use `git commit`

@@ -1,18 +1,14 @@
-![Node build](https://github.com/eritislami/evobot/actions/workflows/node.yml/badge.svg)
-![Docker build](https://github.com/eritislami/evobot/actions/workflows/docker.yml/badge.svg)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+<p align="center">
+  <img src="https://i.imgur.com/MPYWaFB.png" />
+</p>
 
-![logo](https://repository-images.githubusercontent.com/186841818/8aa95700-7730-11e9-84be-e80f28520325)
+# 🪐 Anagram-game
 
-# 🤖 EvoBot (Discord Music Bot)
+> Anagram game is a game created for college group work, consisting of developing and improving skills in C
 
-> EvoBot is a Discord Music Bot built with TypeScript, discord.js & uses Command Handler from [discordjs.guide](https://discordjs.guide)
-## Requirements
+## 📜 Requiremednts
 
-1. Discord Bot Token **[Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)**
-2. Node.js 16.11.0 or newer
-
-![reactions](https://i.imgur.com/9S7Omf9.png)
+1. Windows.h header or equivalent
 
 ## 🌎 Locales
 

@@ -24,3 +24,5 @@ Currently available locales are:
 3. Stage changes `git add .`
 4. Commit your changes: `cz` OR use `git commit`
 5. Submit a pull request
+
+

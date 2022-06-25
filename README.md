@@ -24,3 +24,8 @@ Currently available locales are:
 - Felipe Yabiko Nogueira          
 - Giovana Salazar Alarcon        
 - João Victor Rokemback Tápparo
+
+<p align="center">
+  Created on <br>
+  03/06/2022
+</p>

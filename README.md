@@ -5,7 +5,7 @@
 # 🪐 Anagram-game
 > Anagram game is a game created for college group work, consisting of developing and improving skills in C
 
-## 📜 Requiremednts
+## 📜 Requirements
 1. Windows.h header or equivalent
 
 ## 🌎 Locales
